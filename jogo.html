@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Bungee+Tint&family=Frijole&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jogo.css">
+
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="inicio">
+            <a href="index.html"> Início </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="desenvolvedores.html"> Programadora </a>
+    </div>
+    
+    <div id="game-container">
+        <h1 id="game-title">Meteor Rush🚙 </h1>
+        <div id="score-meteors">Pontos Meteoros: 0</div>
+        <div id="score-moedas"> Pontos Moedas: 0</div>
+        <canvas id="game-canvas"></canvas>
+        
+        <div id="start-screen">
+        <div class="instructions">
+        <p>Use as teclas SETAS (↔) para mover o carro e
+        desviar dos meteoros! E lembre-se, na fase 2 use a tecla (espaço) para atirar!</p>
+        </div>
+        <button id ="start-button">INICIAR JOGO</button>
+        </div>
+    </div>
+
+    
+    <script src="jogo.js"></script>
+</body>
+</html>
